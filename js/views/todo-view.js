@@ -76,8 +76,6 @@ var app = app || {};
 		edit: function () {
 			this.$el.addClass('editing');
 			this.$input.focus();
-			// remove the edit button
-			$(this.$el).children('button').remove();
 		},
 
 		// Close the `"editing"` mode, saving changes to the todo.
